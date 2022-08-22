@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+#hero {
+    background: #000;
+}
+
+.hero-general {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    padding: 0 10px;
+}
+
+.hero-block h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 63px;
+    line-height: 73px;
+    text-align: center;
+    color: black;
+}
+
+.hero-block p {
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    color: black;
+
+}
+
+.hero-btn img {
+    margin-left: 350px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 26px;
+    color: black;
+
+}
+
+.hero-pick h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    color: black;
+}
+
+.hero-phone p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    color: black;
+}
+
+.lements-litlle h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    color: black;
+}
+
+.hero-phone img {
+}
+
+.lements {
+    display: flex;
+    padding: 80px 0;
+
+}
+
+
+.hero-img {
+    position: relative;
+}
+
+.hero-two1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#shoot{
+    background: #000;
+}
+
+.shoot-gen{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shoot-img{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shoot-img-one{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.shoot-img-two{
+    z-index: 1;
+}
